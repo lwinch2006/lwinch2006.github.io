@@ -5,11 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmarks</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    
-    <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="32x32 48x48 144x144 196x196">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
@@ -19,16 +17,77 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            <h2 class="text-center">Books </h2></div>
-        <div class="col-md-3">
-            <h2 class="text-center">Workflow </h2></div>
-        <div class="col-md-3">
-            <h2 class="text-center">C# </h2></div>
-        <div class="col-md-3">
-            <h2 class="text-center">.NET </h2></div>
+            <div class="container">
+<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Books</a>
+  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Workflow</a>
+  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">C#</a>
+  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">.NET</a>
+</div>
+</div>
+        </div>
+        <div class="col-md-9">
+            <div class="container"> 
+    <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+<div class="row">
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/media/index/web-application-guide-cover-image.png" /></a>
+            </div>
+            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/" target="_blank" rel="noopener noreferrer">Architect Modern Web Applications with ASP.NET Core and Azure</a></div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/media/index/blazor-for-aspnet-web-forms-developers.png" /></a>
+            </div>
+            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/" target="_blank" rel="noopener noreferrer">Blazor for ASP.NET Web Forms Developers</a></div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/media/cover-small.png" /></a>
+            </div>
+            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/" target="_blank" rel="noopener noreferrer">.NET Microservices: Architecture for Containerized .NET Applications</a></div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/media/cover.png" /></a>
+            </div>
+            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/" target="_blank" rel="noopener noreferrer">Architecting Cloud Native .NET Applications for Azure</a></div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/?view=aspnetcore-3.1" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/media/cover-large.png?view=aspnetcore-3.1" /></a>
+            </div>
+            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/" target="_blank" rel="noopener noreferrer">.NET Microservices: Architecture for Containerized .NET Applications</a></div>
+        </div>
+    </div>
+</div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            test 2
+        </div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            test 3
+        </div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            test 4
+        </div>
+    </div>
+</div>
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
