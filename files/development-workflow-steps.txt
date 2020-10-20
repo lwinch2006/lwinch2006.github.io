@@ -1,0 +1,16 @@
+﻿Development workflow steps:
+
+
+1) Make technical name (dka.html.staticwebsite, dka.aspnetcore.webapp1, lwinch2006.github.io)
+2) Create private project progress repo in GitHub (dka.html.staticwebsite.project, dka.aspnetcore.webapp1.project, lwinch2006.github.io.project)
+lwinch2006.github.io/
+- Design/
+- UI/
+- Coding/
+- Deployment/
+
+3) Create design in Figma
+4) Create UI in Bootstrap Studio
+5) Create code base in Rider
+6) Deploy project to Azure
+
