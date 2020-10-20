@@ -3,11 +3,12 @@
 
 1) Make technical name (dka.html.staticwebsite, dka.aspnetcore.webapp1, lwinch2006.github.io)
 2) Create private project progress repo in GitHub (dka.html.staticwebsite.project, dka.aspnetcore.webapp1.project, lwinch2006.github.io.project)
-lwinch2006.github.io/
+lwinch2006.github.io.project/
 - Design/
 - UI/
 - Coding/
 - Deployment/
+- notes.txt
 
 3) Create design in Figma
 4) Create UI in Bootstrap Studio
