@@ -1,93 +1,236 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmarks</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
-
 <body>
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center">Bookmarks </h1></div>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="container">
-<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Books</a>
-  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Workflow</a>
-  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">C#</a>
-  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">.NET</a>
-</div>
-</div>
-        </div>
-        <div class="col-md-9">
-            <div class="container"> 
-    <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 <div class="row">
-    <div class="col-md-2">
-        <div class="row">
-            <div class="col-md-12">
-                <a href="/files/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/media/index/web-application-guide-cover-image.png" /></a>
+    <div class="col-md-12">
+        <h1 class="text-center">Bookmarks </h1></div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="container">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-books-tab" data-toggle="pill" href="#v-pills-books" role="tab"
+                   aria-controls="v-pills-books" aria-selected="true">Books</a>
+                <a class="nav-link" id="v-pills-samples-tab" data-toggle="pill" href="#v-pills-samples" role="tab"
+                   aria-controls="v-pills-samples" aria-selected="false">Samples</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                   aria-controls="v-pills-profile" aria-selected="false">Workflow</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                   aria-controls="v-pills-messages" aria-selected="false">C#</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                   aria-controls="v-pills-settings" aria-selected="false">.NET</a>
             </div>
-            <div class="col-md-12"><a href="/files/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf" target="_blank" rel="noopener noreferrer">Architect Modern Web Applications with ASP.NET Core and Azure</a></div>
         </div>
     </div>
-    <div class="col-md-2">
-        <div class="row">
-            <div class="col-md-12">
-                <a href="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/media/index/blazor-for-aspnet-web-forms-developers.png" /></a>
+    <div class="col-md-9">
+        <div class="container">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-books" role="tabpanel"
+                     aria-labelledby="v-pills-books-tab">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="/files/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+                                       target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                                                                                      src="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/media/index/web-application-guide-cover-image.png"/></a>
+                                </div>
+                                <div class="col-md-12"><a
+                                        href="https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/"
+                                        target="_blank" rel="noopener noreferrer">Site</a></div>
+                                <div class="col-md-12"><a
+                                        href="https://raw.githubusercontent.com/dotnet-architecture/eBooks/master/current/architecting-modern-web-apps-azure/Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.pdf"
+                                        target="_blank" rel="noopener noreferrer">PDF</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/"
+                                       target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                                                                                      src="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/media/index/blazor-for-aspnet-web-forms-developers.png"/></a>
+                                </div>
+                                <div class="col-md-12"><a
+                                        href="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/"
+                                        target="_blank" rel="noopener noreferrer">Site</a></div>
+                                <div class="col-md-12"><a
+                                        href="https://raw.githubusercontent.com/dotnet-architecture/eBooks/master/current/blazor-for-web-forms-developers/Blazor-for-ASP-NET-Web-Forms-Developers.pdf"
+                                        target="_blank" rel="noopener noreferrer">PDF</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/"
+                                       target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                                                                                      src="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/media/cover-small.png"/></a>
+                                </div>
+                                <div class="col-md-12"><a
+                                        href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/"
+                                        target="_blank" rel="noopener noreferrer">Site</a></div>
+                                <div class="col-md-12"><a
+                                        href="https://raw.githubusercontent.com/dotnet-architecture/eBooks/master/current/microservices/NET-Microservices-Architecture-for-Containerized-NET-Applications.pdf"
+                                        target="_blank" rel="noopener noreferrer">PDF</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/"
+                                       target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                                                                                      src="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/media/cover.png"/></a>
+                                </div>
+                                <div class="col-md-12"><a
+                                        href="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/"
+                                        target="_blank" rel="noopener noreferrer">Site</a></div>
+                                <div class="col-md-12"><a
+                                        href="https://raw.githubusercontent.com/dotnet-architecture/eBooks/master/current/cloud-native/Architecting-Cloud-Native-NET-Apps-for-Azure.pdf"
+                                        target="_blank" rel="noopener noreferrer">PDF</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/?view=aspnetcore-3.1"
+                                       target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                                                                                      src="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/media/cover-large.png?view=aspnetcore-3.1"/></a>
+                                </div>
+                                <div class="col-md-12"><a
+                                        href="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/?view=aspnetcore-5.0"
+                                        target="_blank" rel="noopener noreferrer">Site</a></div>
+                                <div class="col-md-12"><a
+                                        href="https://raw.githubusercontent.com/dotnet-architecture/eBooks/master/current/devops-aspnet-core/DevOps-with-ASP.NET-Core-and-Azure.pdf"
+                                        target="_blank" rel="noopener noreferrer">PDF</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/?view=aspnetcore-3.1"
+                                       target="_blank" rel="noopener noreferrer"><img class="img-fluid"
+                                                                                      src="https://docs.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/media/cover.png"/></a>
+                                </div>
+                                <div class="col-md-12"><a
+                                        href="https://docs.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/"
+                                        target="_blank" rel="noopener noreferrer">Site</a></div>
+                                <div class="col-md-12"><a
+                                        href="https://raw.githubusercontent.com/dotnet-architecture/eBooks/master/current/dapr-for-net-developers/Dapr-for-NET-Developers.pdf"
+                                        target="_blank" rel="noopener noreferrer">PDF</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-samples" role="tabpanel" aria-labelledby="v-pills-samples-tab">
+                    <div class="row mb-4">
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/tutorials/first-mvc-app/start-mvc/sample"
+                                       target="_blank" rel="noopener noreferrer">Simple MVC app</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <small class="form-text text-muted">
+                                        Keywords: MVC
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/tutorials/first-web-api/samples"
+                                       target="_blank" rel="noopener noreferrer">Simple WebAPI app</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <small class="form-text text-muted">
+                                        Keywords: WebAPI
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/tutorials/first-web-api/samples"
+                                       target="_blank" rel="noopener noreferrer">eShop on Web</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <small class="form-text text-muted">
+                                        Keywords: MVC, Mediator, WebAPI, Clean Architecture, Blazor
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/tutorials/first-web-api/samples"
+                                       target="_blank" rel="noopener noreferrer">eShop on containers</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <small class="form-text text-muted">
+                                        Keywords: MVC, SPA, WebAPI, Docker
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://github.com/dotnet-architecture/eShopOnDapr" target="_blank"
+                                       rel="noopener noreferrer">eShop on Dapr</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <small class="form-text text-muted">
+                                        Keywords: WebAPI, SPA, Dapr
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    test 2
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    test 3
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    test 4
+                </div>
             </div>
-            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/" target="_blank" rel="noopener noreferrer">Blazor for ASP.NET Web Forms Developers</a></div>
-        </div>
-    </div>
-    <div class="col-md-2">
-        <div class="row">
-            <div class="col-md-12">
-                <a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/media/cover-small.png" /></a>
-            </div>
-            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/" target="_blank" rel="noopener noreferrer">.NET Microservices: Architecture for Containerized .NET Applications</a></div>
-        </div>
-    </div>
-    <div class="col-md-2">
-        <div class="row">
-            <div class="col-md-12">
-                <a href="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/media/cover.png" /></a>
-            </div>
-            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/" target="_blank" rel="noopener noreferrer">Architecting Cloud Native .NET Applications for Azure</a></div>
-        </div>
-    </div>
-    <div class="col-md-2">
-        <div class="row">
-            <div class="col-md-12">
-                <a href="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/?view=aspnetcore-3.1" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="https://docs.microsoft.com/en-us/aspnet/core/azure/devops/media/cover-large.png?view=aspnetcore-3.1" /></a>
-            </div>
-            <div class="col-md-12"><a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/" target="_blank" rel="noopener noreferrer">.NET Microservices: Architecture for Containerized .NET Applications</a></div>
         </div>
     </div>
 </div>
-        </div>
-        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-            test 2
-        </div>
-        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-            test 3
-        </div>
-        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-            test 4
-        </div>
-    </div>
-</div>
-        </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
